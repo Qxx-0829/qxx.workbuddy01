@@ -1,0 +1,25 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.*
+secrets.*
+private/
+personal/
+
+# Local caches and generated files
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.db
+*.sqlite
+.DS_Store
+Thumbs.db
+
+# Local editor and tool state
+.vscode/settings.json
+.workbuddy/local/
